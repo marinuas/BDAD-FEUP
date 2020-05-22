@@ -1,1 +1,1 @@
-DROP TRIGGER IF EXISTS adiciona_pontos;
+drop trigger if exists QuartoOcupado;
