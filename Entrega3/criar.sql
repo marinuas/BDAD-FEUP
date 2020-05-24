@@ -123,7 +123,7 @@ CREATE TABLE QuantidadeDeServicosPrestados
 
 CREATE TABLE QuantidadeDeBebidas
 (	id_cartao	INTEGER REFERENCES Cartao(id_cartao) ON DELETE CASCADE ON UPDATE CASCADE,
-	id_servico	INTEGER REFERENCES Servico(id_servico) ON DELETE CASCADE ON UPDATE CASCADE,
+	id_servico	INTEGER REFERENCES TipoDeBebida(id_servico) ON DELETE CASCADE ON UPDATE CASCADE,
 	quantidade	INTEGER NOT NULL CHECK(quantidade>=0),
 	PRIMARY KEY(id_cartao, id_servico)
 );
