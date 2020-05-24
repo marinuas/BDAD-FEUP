@@ -1,0 +1,1 @@
+INSERT INTO Pessoa(nif, nome, email, nr_tel) VALUES ('113283123', 'Beatriz Filipa', 'bea123@hotmail.com', '964587022');
