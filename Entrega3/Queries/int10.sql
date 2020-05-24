@@ -1,3 +1,9 @@
+--valor total de cada fatura é o preço do quarto mais os serviços requisitados menos o desconto
+
+.mode       columns
+.headers    on
+.nullvalue  NULL
+
 drop view if exists PrecoQuarto;
 create view PrecoQuarto as
 select sum(preco) as precoquartos, Fatura.id_fatura as fat1 from PrecoDeQuarto, Cliente, Quarto, Reserva, Fatura, Cartao
