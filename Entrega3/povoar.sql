@@ -68,6 +68,9 @@ INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('
 INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78987', '204', '113283123', '2020-03-22', '2020-03-26');
 INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78988', '301', '233283123', '2020-04-01', '2020-04-05');
 INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78989', '114', '233674080', '2020-04-01', '2020-04-06');
+INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78990', '303', '234678567', '2020-06-28', '2020-06-30');
+INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78991', '112', '100972098', '2020-07-15', '2020-07-23');
+INSERT INTO Reserva(nr_reserva, nr_quarto, nif, data_inicio, data_fim) VALUES ('78992', '105', '113283123', '2021-03-09', '2021-03-20');
 
 
 
