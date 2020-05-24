@@ -24,6 +24,7 @@ drop view if exists Desconto;create view Desconto as
 select desconto, Fatura.id_fatura as fat3 from DescontoAplicado, Fatura
 where(DescontoAplicado.id_fatura=Fatura.id_fatura);
 
-select precoquartos+servicos-desconto as total, fat2 from  ValorTotalServicos, Desconto, PrecoQuarto
+select precoquartos+servicos-desconto as total, fat2 as fatura from  ValorTotalServicos, Desconto, PrecoQuarto
 where( Desconto.fat3=ValorTotalServicos.fat2 and PrecoQuarto.fat1=Desconto.fat3)
 group by fat2 ;
+
